@@ -1,0 +1,552 @@
+\providecommand*{\mcitethebibliography}{\thebibliography}
+\csname @ifundefined\endcsname{endmcitethebibliography}
+{\let\endmcitethebibliography\endthebibliography}{}
+\begin{mcitethebibliography}{66}
+\providecommand*{\natexlab}[1]{#1}
+\providecommand*{\mciteSetBstSublistMode}[1]{}
+\providecommand*{\mciteSetBstMaxWidthForm}[2]{}
+\providecommand*{\mciteBstWouldAddEndPuncttrue}
+  {\def\EndOfBibitem{\unskip.}}
+\providecommand*{\mciteBstWouldAddEndPunctfalse}
+  {\let\EndOfBibitem\relax}
+\providecommand*{\mciteSetBstMidEndSepPunct}[3]{}
+\providecommand*{\mciteSetBstSublistLabelBeginEnd}[3]{}
+\providecommand*{\EndOfBibitem}{}
+\mciteSetBstSublistMode{f}
+\mciteSetBstMaxWidthForm{subitem}
+{(\emph{\alph{mcitesubitemcount}})}
+\mciteSetBstSublistLabelBeginEnd{\mcitemaxwidthsubitemform\space}
+{\relax}{\relax}
+
+\bibitem[Bondar(2019)]{Bondar2019}
+A.~N. Bondar, \emph{{Introduction: Biomembrane Structure, Dynamics, and
+  Reactions}}, 2019\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Beaugrand \emph{et~al.}(2016)Beaugrand, Arnold, Juneau, Gambaro,
+  Warschawski, Williamson, and Marcotte]{Beaugrand2016}
+M.~Beaugrand, A.~A. Arnold, A.~Juneau, A.~B. Gambaro, D.~E. Warschawski, P.~T.
+  Williamson and I.~Marcotte, \emph{Langmuir}, 2016, \textbf{32},
+  13244--13251\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Montecinos \emph{et~al.}(2007)Montecinos, Ahumada, Araya-Maturana,
+  Olea, and Weiss-L{\'{o}}pez]{Montecinos2007}
+R.~Montecinos, H.~Ahumada, R.~Araya-Maturana, A.~F. Olea and B.~E.
+  Weiss-L{\'{o}}pez, \emph{Journal of Colloid and Interface Science}, 2007,
+  \textbf{316}, 126--131\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Ruiz-Fern{\'{a}}ndez \emph{et~al.}(2016)Ruiz-Fern{\'{a}}ndez,
+  L{\'{o}}pez-Cascales, Giner-Casares, Araya-Maturana, D{\'{i}}az-Ba{\~{n}}os,
+  and Weiss-L{\'{o}}pez]{Ruiz-Fernandez2016}
+A.~R. Ruiz-Fern{\'{a}}ndez, J.~J. L{\'{o}}pez-Cascales, J.~J. Giner-Casares,
+  R.~Araya-Maturana, F.~G. D{\'{i}}az-Ba{\~{n}}os and B.~E. Weiss-L{\'{o}}pez,
+  \emph{RSC Advances}, 2016, \textbf{6}, 85411--85419\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Lawson and Flautt(1967)]{Lawson1967}
+K.~D. Lawson and T.~J. Flautt, \emph{Journal of the American Chemical Society},
+  1967, \textbf{89}, 5489--5491\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Amaral \emph{et~al.}(1979)Amaral, Pimentel, Tavares, and
+  Vanin]{Amaral1979}
+L.~Q. Amaral, C.~A. Pimentel, M.~R. Tavares and J.~A. Vanin, \emph{The Journal
+  of Chemical Physics}, 1979, \textbf{71}, 2940--2945\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Sanders and Prestegard(1990)]{Sanders1990}
+C.~R. Sanders and J.~H. Prestegard, \emph{Biophysical Journal}, 1990,
+  \textbf{58}, 447--460\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Sanders and Schwonek(1992)]{Sanders1992}
+C.~R. Sanders and J.~P. Schwonek, \emph{Biochemistry}, 1992, \textbf{31},
+  8898--8905\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Shapiro \emph{et~al.}(2010)Shapiro, Brindley, and Martin]{Shapiro2010}
+R.~A. Shapiro, A.~J. Brindley and R.~W. Martin, \emph{Journal of the American
+  Chemical Society}, 2010, \textbf{132}, 11406--11407\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Park and Opella(2010)]{Park2010}
+S.~H. Park and S.~J. Opella, \emph{Journal of the American Chemical Society},
+  2010, \textbf{132}, 12552--12553\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Sun \emph{et~al.}(2008)Sun, Wu, Lu, Liu, Wang, and He]{Sun2008}
+J.~Sun, X.~Wu, R.~Lu, J.~Liu, Y.~Wang and Z.~He, \emph{Current drug
+  metabolism}, 2008, \textbf{9}, 152--66\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[D{\"{u}}rr \emph{et~al.}(2013)D{\"{u}}rr, Soong, and
+  Ramamoorthy]{Durr2013}
+U.~H. D{\"{u}}rr, R.~Soong and A.~Ramamoorthy, \emph{{When detergent meets
+  bilayer: Birth and coming of age of lipid bicelles}}, 2013\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Matsumori \emph{et~al.}(2007)Matsumori, Morooka, and
+  Murata]{Matsumori2007}
+N.~Matsumori, A.~Morooka and M.~Murata, \emph{Journal of the American Chemical
+  Society}, 2007, \textbf{129}, 14989--14995\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Koenig and Gawrisch(2005)]{Koenig2005}
+B.~W. Koenig and K.~Gawrisch, \emph{Journal of Physical Chemistry B}, 2005,
+  \textbf{109}, 7540--7547\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[D{\"{u}}rr \emph{et~al.}(2012)D{\"{u}}rr, Gildenberg, and
+  Ramamoorthy]{Durr2012}
+U.~H. D{\"{u}}rr, M.~Gildenberg and A.~Ramamoorthy, \emph{Chemical Reviews},
+  2012, \textbf{112}, 6054--6074\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Warschawski \emph{et~al.}(2011)Warschawski, Arnold, Beaugrand, Gravel,
+  Chartrand, and Marcotte]{Warschawski2011}
+D.~E. Warschawski, A.~A. Arnold, M.~Beaugrand, A.~Gravel, {\'{E}}.~Chartrand
+  and I.~Marcotte, \emph{{Choosing membrane mimetics for NMR structural studies
+  of transmembrane proteins}}, 2011,
+  \url{http://www.sciencedirect.com/science/article/pii/S0005273611001027}\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Raschle \emph{et~al.}(2010)Raschle, Hiller, Etzkorn, and
+  Wagner]{Raschle2010}
+T.~Raschle, S.~Hiller, M.~Etzkorn and G.~Wagner, \emph{{Nonmicellar systems for
+  solution NMR spectroscopy of membrane proteins}}, 2010\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Sanders and S{\"{o}}nnichsen(2006)]{Sanders2006}
+C.~R. Sanders and F.~S{\"{o}}nnichsen, \emph{{Solution NMR of membrane
+  proteins: Practice and challenges}}, 2006\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Birnbaumer(1999)]{Birnbaumer1999}
+M.~Birnbaumer, \emph{{Vasopressin receptor mutations and nephrogenic diabetes
+  insipidus}}, 1999,
+  \url{https://www.sciencedirect.com/science/article/abs/pii/S0188440999000636}\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Gillet \emph{et~al.}(2010)Gillet, Roger, Potier, Brisson, Vandier,
+  Besson, and {Le Guennec}]{Gillet2010}
+L.~Gillet, S.~Roger, M.~Potier, L.~Brisson, C.~Vandier, P.~Besson and J.-Y. {Le
+  Guennec}, \emph{Frontiers in Medicinal Chemistry: Volume 5}, 2010,
+  \textbf{5}, 234\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Fagerberg \emph{et~al.}(2010)Fagerberg, Jonasson, {Von Heijne},
+  Uhl{\'{e}}n, and Berglund]{Fagerberg2010}
+L.~Fagerberg, K.~Jonasson, G.~{Von Heijne}, M.~Uhl{\'{e}}n and L.~Berglund,
+  \emph{Proteomics}, 2010, \textbf{10}, 1141--1149\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Warr \emph{et~al.}(1986)Warr, Grieser, and Evans]{Warr1986}
+G.~G. Warr, F.~Grieser and D.~F. Evans, \emph{Journal of the Chemical Society
+  Faraday Transactions I}, 1986, \textbf{82}, 1829--1838\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Wallin and Heijne(2008)]{Wallin2008}
+E.~Wallin and G.~V. Heijne, \emph{Protein Science}, 2008, \textbf{7},
+  1029--1038\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[McEvoy(2007)]{McEvoy2007}
+G.~McEvoy, \emph{Inc., Bethesda, MD}, 2007\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Martin \emph{et~al.}(2014)Martin, Chao, and Corry]{Martin2014a}
+L.~J. Martin, R.~Chao and B.~Corry, \emph{Biophysical Chemistry}, 2014,
+  \textbf{185}, 98--107\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[L{\'{o}}pez-Cascales \emph{et~al.}(2011)L{\'{o}}pez-Cascales, Costa,
+  and Porasso]{Cascales2011}
+J.~J. L{\'{o}}pez-Cascales, S.~D. Costa and R.~D. Porasso, \emph{Journal of
+  Chemical Physics}, 2011, \textbf{135}, 135103\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Porasso \emph{et~al.}(2009)Porasso, Bennett, Oliveira-Costa, and
+  Cascales]{Porasso2009}
+R.~D. Porasso, W.~F. Bennett, S.~D. Oliveira-Costa and J.~J. Cascales,
+  \emph{Journal of Physical Chemistry B}, 2009, \textbf{113}, 9988--9994\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[{L{\'{o}}pez Cascales} \emph{et~al.}(2006){L{\'{o}}pez Cascales},
+  Otero, Smith, Gonz{\'{a}}lez, and M{\'{a}}rquez]{J.J.LopezCascales2006}
+J.~J. {L{\'{o}}pez Cascales}, T.~F. Otero, B.~D. Smith, C.~Gonz{\'{a}}lez and
+  M.~M{\'{a}}rquez, \emph{Journal of Physical Chemistry B}, 2006, \textbf{110},
+  2358--2363\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Matsuki \emph{et~al.}(2001)Matsuki, Hata, Yamanaka, and
+  Kaneshina]{Matsuki2001}
+H.~Matsuki, T.~Hata, M.~Yamanaka and S.~Kaneshina, Colloids and Surfaces B:
+  Biointerfaces, 2001, pp. 69--76\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Suwalsky \emph{et~al.}(2004)Suwalsky, Schneider, Villena, Norris,
+  C{\'{a}}rdenas, Cuevas, and Sotomayor]{Suwalsky2004}
+M.~Suwalsky, C.~Schneider, F.~Villena, B.~Norris, H.~C{\'{a}}rdenas, F.~Cuevas
+  and C.~P. Sotomayor, \emph{Biophysical Chemistry}, 2004, \textbf{109},
+  189--199\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Kuroda \emph{et~al.}(2000)Kuroda, Nasu, Fujiwara, and
+  Nakagawa]{Kuroda2000}
+Y.~Kuroda, H.~Nasu, Y.~Fujiwara and T.~Nakagawa, \emph{Journal of Membrane
+  Biology}, 2000, \textbf{177}, 117--128\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Choi \emph{et~al.}(2001)Choi, Oh, and Lee]{Choi2001}
+S.~Y. Choi, S.~G. Oh and J.~S. Lee, \emph{Colloids and Surfaces B:
+  Biointerfaces}, 2001, \textbf{20}, 239--244\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[C{\'{a}}rdenas \emph{et~al.}(2016)C{\'{a}}rdenas, Jim{\'{e}}nez, and
+  Mart{\'{i}}nez]{Cardenas2016}
+Z.~J. C{\'{a}}rdenas, D.~M. Jim{\'{e}}nez and F.~Mart{\'{i}}nez, \emph{Physics
+  and Chemistry of Liquids}, 2016, \textbf{54}, 303--312\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[C{\'{a}}rdenas \emph{et~al.}(2018)C{\'{a}}rdenas, Jim{\'{e}}nez,
+  Almanza, Jouyban, Mart{\'{i}}nez, and Acree]{Cardenas2018}
+Z.~J. C{\'{a}}rdenas, D.~M. Jim{\'{e}}nez, O.~A. Almanza, A.~Jouyban,
+  F.~Mart{\'{i}}nez and W.~E. Acree, \emph{Physics and Chemistry of Liquids},
+  2018, \textbf{56}, 465--481\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Paluch \emph{et~al.}(2015)Paluch, Parameswaran, Liu, Kolavennu, and
+  Mobley]{Paluch2015}
+A.~S. Paluch, S.~Parameswaran, S.~Liu, A.~Kolavennu and D.~L. Mobley,
+  \emph{Journal of Chemical Physics}, 2015, \textbf{142}, 044508\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[{\'{A}}vila and Mart{\'{i}}nez(2002)]{Avila2002}
+C.~M. {\'{A}}vila and F.~Mart{\'{i}}nez, \emph{Journal of Solution Chemistry},
+  2002, \textbf{31}, 975--985\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Aguado \emph{et~al.}(2013)Aguado, Le{\'{o}}n, Mill{\'{a}}n, Cocinero,
+  Jaeqx, Rijs, Lesarri, and Fern{\'{a}}ndez]{Aguado2013}
+E.~Aguado, I.~Le{\'{o}}n, J.~Mill{\'{a}}n, E.~J. Cocinero, S.~Jaeqx, A.~M.
+  Rijs, A.~Lesarri and J.~A. Fern{\'{a}}ndez, \emph{Journal of Physical
+  Chemistry B}, 2013, \textbf{117}, 13472--13480\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Shkurenko \emph{et~al.}(2018)Shkurenko, Lyrshchikov, Gorlov,
+  Al'tshuler, and Al'tshuler]{Shkurenko2018}
+G.~Y. Shkurenko, S.~Y. Lyrshchikov, A.~A. Gorlov, O.~G. Al'tshuler and G.~N.
+  Al'tshuler, \emph{Pharmaceutical Chemistry Journal}, 2018, \textbf{52},
+  464--466\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[{Attoui Yahia} \emph{et~al.}(2017){Attoui Yahia}, {Attoui Yahia},
+  Khatmi, Belghiche, and Bouzitouna]{AttouiYahia2017}
+H.~{Attoui Yahia}, O.~{Attoui Yahia}, D.~Khatmi, R.~Belghiche and
+  A.~Bouzitouna, \emph{Journal of Inclusion Phenomena and Macrocyclic
+  Chemistry}, 2017, \textbf{89}, 353--365\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Li \emph{et~al.}(2016)Li, Yin, Martinz, Wyman, Bardelang, Macartney,
+  and Wang]{Li2016}
+S.~Li, H.~Yin, G.~Martinz, I.~W. Wyman, D.~Bardelang, D.~H. Macartney and
+  R.~Wang, \emph{New Journal of Chemistry}, 2016, \textbf{40}, 3484--3490\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Arantes \emph{et~al.}(2014)Arantes, Varej{\~{a}}o, Pelizzaro-Rocha,
+  Cereda, {De Paula}, Louren{\c{c}}o, Duarte, and Fernandes]{Arantes2014}
+L.~M. Arantes, E.~V. Varej{\~{a}}o, K.~J. Pelizzaro-Rocha, C.~M. Cereda, E.~{De
+  Paula}, M.~P. Louren{\c{c}}o, H.~A. Duarte and S.~A. Fernandes,
+  \emph{Chemical Biology and Drug Design}, 2014, \textbf{83}, 550--559\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Puglia \emph{et~al.}(2011)Puglia, Sarpietro, Bonina, Castelli,
+  Zammataro, and Chiechio]{Puglia2011}
+C.~Puglia, M.~G. Sarpietro, F.~Bonina, F.~Castelli, M.~Zammataro and
+  S.~Chiechio, \emph{Journal of Pharmaceutical Sciences}, 2011, \textbf{100},
+  1892--1899\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Fabbrini \emph{et~al.}(1987)Fabbrini, Juncos, Mouradian, Serrati, and
+  Chase]{Fabbrini1987}
+G.~Fabbrini, J.~Juncos, M.~M. Mouradian, C.~Serrati and T.~N. Chase,
+  \emph{Annals of Neurology}, 1987, \textbf{21}, 370--376\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Bentley and Sharma(2012)]{BENTLEY2012349}
+P.~Bentley and P.~Sharma, \emph{Clinical Pharmacology: Eleventh Edition},
+  Churchill Livingstone, Oxford, Eleventh Edition edn, 2012, pp. 349--370\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Pryor and Storer(2013)]{PRYOR2013180}
+K.~O. Pryor and K.~P. Storer, \emph{Pharmacology and Physiology for Anesthesia:
+  Foundations and Clinical Application}, W.B. Saunders, Philadelphia, 2013, pp.
+  180--207\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Or{\l}owski \emph{et~al.}(2012)Or{\l}owski, Grzybek, Bunker,
+  Pasenkiewicz-Gierula, Vattulainen, M{\"{a}}nnist{\"{o}}, and
+  R{\~{o}}g]{Orowski2012}
+A.~Or{\l}owski, M.~Grzybek, A.~Bunker, M.~Pasenkiewicz-Gierula, I.~Vattulainen,
+  P.~T. M{\"{a}}nnist{\"{o}} and T.~R{\~{o}}g, \emph{Journal of
+  Neurochemistry}, 2012, \textbf{122}, 681--690\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Bahamonde-Padilla \emph{et~al.}(2013)Bahamonde-Padilla, Espinoza,
+  Weiss-L{\'{o}}pez, {L{\'{o}}pez Cascales}, Montecinos, and
+  Araya-Maturana]{Bahamonde-Padilla2013}
+V.~E. Bahamonde-Padilla, J.~Espinoza, B.~E. Weiss-L{\'{o}}pez, J.~J.
+  {L{\'{o}}pez Cascales}, R.~Montecinos and R.~Araya-Maturana, \emph{Journal of
+  Chemical Physics}, 2013, \textbf{139}, 014703\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Abraham \emph{et~al.}(2015)Abraham, Murtola, Schulz, P{\'{a}}ll,
+  Smith, Hess, and Lindah]{Abraham2015}
+M.~J. Abraham, T.~Murtola, R.~Schulz, S.~P{\'{a}}ll, J.~C. Smith, B.~Hess and
+  E.~Lindah, \emph{SoftwareX}, 2015, \textbf{1-2}, 19--25\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[{Di Pierro} \emph{et~al.}(2015){Di Pierro}, Elber, and
+  Leimkuhler]{DiPierro2015}
+M.~{Di Pierro}, R.~Elber and B.~Leimkuhler, \emph{Journal of Chemical Theory
+  and Computation}, 2015, \textbf{11}, 5624--5637\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Bussi \emph{et~al.}(2007)Bussi, Donadio, and Parrinello]{Bussi2007}
+G.~Bussi, D.~Donadio and M.~Parrinello, \emph{Journal of Chemical Physics},
+  2007, \textbf{126}, 14101\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Berendsen \emph{et~al.}(1984)Berendsen, Postma, van Gunsteren, DiNola,
+  and Haak]{Berendsen1984}
+H.~Berendsen, J.~P.~M. Postma, W.~F. van Gunsteren, A.~DiNola and J.~R. Haak,
+  \emph{The Journal of Chemical Physics}, 1984, \textbf{81}, 3684--3690\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Neria \emph{et~al.}(1996)Neria, Fischer, and Karplus]{Neria1996}
+E.~Neria, S.~Fischer and M.~Karplus, \emph{Journal of Chemical Physics}, 1996,
+  \textbf{105}, 1902--1921\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Jorgensen \emph{et~al.}(1983)Jorgensen, Chandrasekhar, Madura, Impey,
+  and Klein]{Jorgensen1983}
+W.~L. Jorgensen, J.~Chandrasekhar, J.~D. Madura, R.~W. Impey and M.~L. Klein,
+  \emph{The Journal of Chemical Physics}, 1983, \textbf{79}, 926--935\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Berendsen \emph{et~al.}(1987)Berendsen, Grigera, and
+  Straatsma]{Berendsen1987}
+H.~J. Berendsen, J.~R. Grigera and T.~P. Straatsma, \emph{Journal of Physical
+  Chemistry}, 1987, \textbf{91}, 6269--6271\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Martinez \emph{et~al.}(2009)Martinez, Andrade, Birgin, and
+  Mart{\'{i}}nez]{Martinez2009}
+L.~Martinez, R.~Andrade, E.~G. Birgin and J.~M. Mart{\'{i}}nez, \emph{Journal
+  of Computational Chemistry}, 2009, \textbf{30}, 2157--2164\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Kumar \emph{et~al.}(1992)Kumar, Rosenberg, Bouzida, Swendsen, and
+  Kollman]{Kumar1992}
+S.~Kumar, J.~M. Rosenberg, D.~Bouzida, R.~H. Swendsen and P.~A. Kollman,
+  \emph{Journal of Computational Chemistry}, 1992, \textbf{13},
+  1011--1021\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Aliaga \emph{et~al.}(2011)Aliaga, Ahumada, Sep{\'{u}}lveda,
+  Gomez-Jeria, Garrido, Weiss-L{\'{o}}pez, and Campos-Vallette]{Aliaga2011}
+A.~E. Aliaga, H.~Ahumada, K.~Sep{\'{u}}lveda, J.~S. Gomez-Jeria, C.~Garrido,
+  B.~E. Weiss-L{\'{o}}pez and M.~M. Campos-Vallette, \emph{Journal of Physical
+  Chemistry C}, 2011, \textbf{115}, 3982--3989\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Hristova and Wimley(2011)]{Hristova2011}
+K.~Hristova and W.~C. Wimley, \emph{{A look at arginine in membranes}}, 2011,
+  \url{http://link.springer.com/10.1007/s00232-010-9323-9}\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Ruiz-Fern{\'{a}}ndez \emph{et~al.}(2016)Ruiz-Fern{\'{a}}ndez,
+  L{\'{o}}pez-Cascales, Giner-Casares, Araya-Maturana,
+  D$\backslash$'$\backslash$iaz-Ba{\~{n}}os, Mu{\~{n}}oz-Gacit{\'{u}}a, and
+  Weiss-L{\'{o}}pez]{ruiz2016effect}
+A.~R. Ruiz-Fern{\'{a}}ndez, J.~J. L{\'{o}}pez-Cascales, J.~J. Giner-Casares,
+  R.~Araya-Maturana, F.~G. D$\backslash$'$\backslash$iaz-Ba{\~{n}}os,
+  D.~Mu{\~{n}}oz-Gacit{\'{u}}a and B.~E. Weiss-L{\'{o}}pez, \emph{RSC
+  Advances}, 2016, \textbf{6}, 7455--7464\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Tang \emph{et~al.}(2014)Tang, Koenig, and Larson]{Tang2014}
+X.~Tang, P.~H. Koenig and R.~G. Larson, \emph{Journal of Physical Chemistry B},
+  2014, \textbf{118}, 3864--3880\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Vanommeslaeghe \emph{et~al.}(2010)Vanommeslaeghe, Hatcher, Acharya,
+  Kundu, Zhong, Shim, Darian, Guvench, Lopes, Vorobyov, and
+  Mackerell]{Vanommeslaeghe2009}
+K.~Vanommeslaeghe, E.~Hatcher, C.~Acharya, S.~Kundu, S.~Zhong, J.~Shim,
+  E.~Darian, O.~Guvench, P.~Lopes, I.~Vorobyov and A.~D. Mackerell,
+  \emph{Journal of Computational Chemistry}, 2010, \textbf{31}, 671--690\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Berger \emph{et~al.}(1997)Berger, Edholm, and
+  J{\"{a}}hnig]{Berger1997}
+O.~Berger, O.~Edholm and F.~J{\"{a}}hnig, \emph{Biophysical Journal}, 1997,
+  \textbf{72}, 2002--2013\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Besler \emph{et~al.}(1990)Besler, Merz, and Kollman]{Besler1990}
+B.~H. Besler, K.~M. Merz and P.~A. Kollman, \emph{Journal of Computational
+  Chemistry}, 1990, \textbf{11}, 431--439\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Oostenbrink \emph{et~al.}(2004)Oostenbrink, Villa, Mark, and {Van
+  Gunsteren}]{Oostenbrink2004}
+C.~Oostenbrink, A.~Villa, A.~E. Mark and W.~F. {Van Gunsteren}, \emph{Journal
+  of Computational Chemistry}, 2004, \textbf{25}, 1656--1676\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Davis(1983)]{Davis1983}
+J.~H. Davis, \emph{{The description of membrane lipid conformation, order and
+  dynamics by 2H-NMR}}, 1983\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Dierking(2003)]{dierking2006textures}
+I.~Dierking, \emph{{Textures of Liquid Crystals}}, Wiley, 2003, pp.
+  52--53\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\end{mcitethebibliography}

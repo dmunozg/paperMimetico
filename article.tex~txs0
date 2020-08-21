@@ -1,0 +1,607 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%This is the LaTeX ARTICLE template for RSC journals
+%Copyright The Royal Society of Chemistry 2016
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\documentclass[3p,preprint,review]{elsarticle}
+
+\usepackage[version=3]{mhchem}
+%\usepackage[left=1.5cm, right=1.5cm, top=1.785cm, bottom=2.0cm]{geometry}
+\usepackage{balance}
+\usepackage{mathptmx}
+\usepackage{sectsty}
+\usepackage{graphicx}
+\usepackage{subcaption}
+\usepackage{lastpage}
+%\usepackage[format=plain,justification=justified,singlelinecheck=false,font={stretch=1.125,small,sf},labelfont=bf,labelsep=space]{caption}
+\usepackage{float}
+\usepackage{fancyhdr}
+\usepackage{fnpos}
+\usepackage{enumitem}
+\usepackage[english]{babel}
+\addto{\captionsenglish}{%
+  \renewcommand{\refname}{Notes and references}
+}
+\usepackage{array}
+\usepackage{droidsans}
+\usepackage{charter}
+\usepackage[T1]{fontenc}
+\usepackage[usenames,dvipsnames]{xcolor}
+\usepackage{setspace}
+\usepackage[compact]{titlesec}
+\usepackage{hyperref}
+\usepackage{todonotes}
+\usepackage{siunitx}
+%Figuras al final
+\usepackage[printfigures]{figcaps}
+
+\graphicspath{{Figures/}}
+\biboptions{super,sort&compress,comma}
+
+\title{Characterization and validation of a membrane mimetic with magnetic
+  orienting capabilities and natural phospholipids content}
+
+\author[1]{D. Muñoz-Gacitúa\corref{cor1}}
+\author[2]{Matias Monroy-Cárdenas}
+\author[2]{R. Araya-Maturana}
+\author[1]{B. Weiss-López}
+
+\cortext[cor1]{E-mail address:\texttt{diego.munoz.g@ug.uchile.cl}}
+
+\address[1]{Laboratorio de Fisicoquímica Molecular, Facultad de Ciencias, Universidad de Chile, Santiago, Chile}
+\address[2]{Instituto de Química de Recursos Naturales, Universidad de Talca, Talca, Chile.}
+
+\begin{document}
+
+\begin{abstract}
+  The cellular membrane in a highly complex structure with variable and
+  inhomogeneous composition which makes the direct study of the sole lipid
+  bilayer a very difficult task, this introduces the necessity of membrane
+  mimetics, that is, lipid bilayer structures that behave as close as possible
+  to the cellular membrane. In this article we present a membrane mimetic with a
+  high phospholipid content, the main component in natural lipid membranes, and
+  the capability of orienting itself when exposed to an external magnetic field,
+  this enables it for studies of its dynamics and mobility employing $^2$H-NMR.
+  We validate its permeability properties as membrane mimetic by reproducing the
+  membrane-permeating ability of Benzocaine, and the inability of Levodopa to do
+  so. We also present a molecular dynamics simulation model of the membrane
+  mimetic, calibrated to reproduce experimental $^2$H-NMR results.
+\end{abstract}
+
+\begin{keyword}
+  Membrane mimetic \sep $^2$H-RMN \sep Molecular dynamics
+\end{keyword}
+
+\maketitle
+
+\renewcommand{\thefootnote}{\alph{footnote}}
+\section{Introduction}
+The cell is a highly complex unit present in all living organisms: it
+constitutes the building block of life. Essentially, consists in a closed domain
+containing smaller organelles in a highly complex and crowded aqueous solution,
+all enclosed by a bilayer made of mainly pospholipids and containing fatty
+acids, sugars, cholesterol and proteins, among others. This bilayer is called
+cell membrane or cytoplasmic membrane. Membranes itself are very complex
+molecular organizations with variable and inhomogeneous composition, and its
+atomic level understanding is a very difficult task. For this reason, the
+employment of
+membrane mimetics and models has become common practice.\cite{Bondar2019}\\
+Because of their ability to orient spontaneously when exposed to an external
+magnetic field, bilayered micelles, also called ``bicelles'', have been widely
+used as membrane mimetics, as they allow the use of solution NMR to probe the
+orientation and dynamics of liposomes\cite{Beaugrand2016}. The bicelle structure
+was first introduced in the late 70s as a mixture of sodium decyl sulphate and
+1-decanol\cite{Amaral1979}. Later, in the 1990s, it was discovered that a
+mixture of DMPC\footnote{1,2-dimyristoyl-\textit{sn}-glycero-3-phosphocholine}
+and
+CHAPSO\footnote{3-(cholamidopropyl)dymethylammonio-2-hydroxy-1-propanesulfonate}
+forms magnetically orientable bilayered micelles\cite{Sanders1990}, this
+composition is suitable to use as a membrane mimetic, as it contains
+phospholipid in its composition. Many improvements have been made to this
+composition over the years, among these improvements, it was found that
+replacing part of the DMPC by
+DHPC\footnote{1,2-dihexanoyl-\textit{sn}-glycero-3-phosphocholine} yields a
+bilayer structure more similar to a natural lipidic bilayer, it was also found
+that the addition of cholesterol improves the stability\cite{Shapiro2010} and
+the addition of Triton X-100 detergent improves its magnetic orienting
+capabilities\cite{Park2010}. Nowadays, bicelles are considered good membrane
+mimetics, as they have been successfully employed to predict drug permeability
+through the membrane, and to propose
+structures for proteins in the trans-membrane domain. And are ideal for when the
+drug-detergent (or protein-detergent) complex is small (<\SI{100}{kDa}), as
+these system can be studied in solution NMR\cite{Warschawski2011,Raschle2010,Sanders2006}\\
+
+Membrane proteins play a significant role in human
+pathologies\cite{Birnbaumer1999,Gillet2010}. About 30\% of human genes code for
+membrane proteins\cite{Fagerberg2010} and they are targeted by more than 50\% of
+drugs\cite{Warr1986,Wallin2008}. Therefore, most drugs have to cross membrane
+interfaces to reach their active site, and consequently, the activity of these
+drugs depends, among other factors, on their ability to perform this task.
+% This is particularly true for local anesthetics (LA). For more than hundred
+% years it has been observed that the effectiveness of many LA correlates
+% positively with
+% lipophilicity\cite{Meyer1899,Overton1901,Langerman1994a,Langerman1994}, showing
+% the importance of becoming incorporated into the bilayer. It is widely accepted
+% that inhibition of voltage gated \ce{Na+} channels is directly involved in the
+% mechanism of LA\cite{Hille1977,Wang1998} and three possible pictures have been
+% proposed: (a) LA directly binds the pore of the channel blocking the transit of
+% ions, (b) LA reaches the active site by one of the lateral cavities filled with
+% hydrophobic membrane components, and (c) the presence of LA near the interface
+% modifies the structure and dynamics of the bilayer itself, perturbing the
+% conformational dynamics and functioning of the
+% channel\cite{Oakes2019,Martin2014,Shibata2005,Griepernau2007,EmmaTerama2008,DePaula2008,Cantor1998,Bernardi2009,Godwin2005}.
+% Despite which mechanisms are actually taking place, crossing membrane interfaces
+% to become incorporated into the hydrophobic domain appears to be a crucial step
+% for
+% most drugs.\\
+Benzocaine is a well known local anesthetic for topical use. It has been widely
+employed anesthetizing the oropharynx for trans-esophageal echocardiography,
+bonchoscopy, esophagogastroduodenoscopy, in cold sores, mouth ulcers, toothache,
+sore gums and denture ache among others\cite{McEvoy2007}.
+% A significant number of
+% cases of Benzocaine induced cyanosis (methemoglobinemia) have been reported
+% along the
+% years\cite{Lardieri2019}, however it still remains in use.\\
+Benzocaine has been subject of a significant number of studies, including free
+energy transfer from water to the interior of different membrane
+mimetics\cite{Martin2014a,Cascales2011,Porasso2009,J.J.LopezCascales2006},
+estimations about location and orientation in different bilayers and
+monolayers\cite{Matsuki2001,Suwalsky2004,Kuroda2000,Choi2001}, interactions with
+a variety of
+solvents\cite{Cardenas2016,Cardenas2018,Paluch2015,Avila2002,Aguado2013} and
+encapsulation in different structures for controlled delivery
+purposes\cite{Shkurenko2018,AttouiYahia2017,Li2016,Arantes2014,Puglia2011} among
+others. All the evidence confirms that Benzocaine is able to cross the interface
+of membrane mimetics to become incorporated into the
+hydrophobic bilayer to finally be located at the inner interface.\\
+
+Contrary to most local anesthetics, Levodopa (or L-DOPA), the precursor of the
+neurotransmitter dopamine, commonly used in treatment of Parkinson's disease, is
+able to cross membrane interfaces only via active processes\cite{Fabbrini1987}.
+Therefore, in the absence of appropriate specific receptors, Levodopa should
+remain attached to the outer interface and should not reach the hydrophobic
+bilayer\cite{Orowski2012}.\\
+
+In this article, we developed a new anionic nematic lyotropic liquid crystal,
+with bilayer structure, susceptible to be used as membrane mimetic. It is made
+of sodium dodecyl sulfate (SDS), 1-decanol (DeOH), sodium sulphate (\ce{Na2SO4})
+and a mixture of natural phospholipids extracted from soybean, all dissolved in
+water. The anionic mesophase, which spontaneously orients in magnetic fields,
+was characterized using polarized light microscopy textures and $^2$H-NMR
+quadrupole splittings. To test the capability of the new mimetic to reproduce
+cell membrane behavior, Benzocaine and Levodopa were dissolved in the mesophase
+solution. According to previous evidence, Benzocaine should spontaneously be
+incorporated inside the bilayer and become located around the inner interface,
+whereas Levodopa should remain attached to the outer interface. To observe
+experimentally the bilayer dynamical behavior and interactions, $^2$H-NMR
+quadrupole splittings from HDO, DeOH-$\alpha$-d$_2$ and SDS-d$_{25}$ were
+measured. To obtain a more detailed characterization of the bilayer interface
+and information about location, dynamics and interactions of Benzocaine and
+Levodopa with the bilayer components, the experimental measurements were
+complemented with classical molecular dynamics (MD) simulations. The results
+show that prevous observations on Benzocaine and Levodopa dissolved in different
+membrane mimetics are reproduced in this case, reaffirming the membrane mimetic
+character of the new mesophase.
+
+\section{Materials and methods}
+\subsection{Materials.}
+The reagents SDS, SDS-d$_{25}$, sodium sulphate and a phospholipid mixture
+extracted from soybean were purchased from \textit{Sigma Aldrich}. DeOH,
+deuterium oxide and HPLC-grade water were purchased from \textit{Merck}. All
+these reagents were employed without alterations, excepting sodium sulphate
+which was oven dried 24 hours before use. Deuterated 1-decanol
+(DeOH-$\alpha$-d$_2$) was synthesized by reducing ethyl decanoate
+(\ce{C12H24O2}) with lithium aluminum deuteride (\ce{LiAlD4}) and
+purified by vacuum fractional distillation.\\
+\subsection{Sample preparation.}
+Samples were prepared by mixing each dry component (SDS, \ce{Na2SO4} and
+phospholipid mixture) in a \SI{5}{mL} centrifuge tube, and then adding DeOH and
+deuterium enriched water(\SI{0.5}{\percent}\ce{D2O}), with each component
+weighted and added in proportion according to Bahamondes's
+bicelle\cite{Bahamonde-Padilla2013} and phospholipid content was added while
+ keeping the rest of the components in
+proportion. Each sample is then submitted to a
+rotational mixer at \SI{4}{rpm} for 24 hours at a temperature of
+\SI{37}{\celsius}, and then centrifuged at \SI{6000}{rpm} for 3 minutes.
+
+
+\subsection{Nuclear magnetic resonance}
+\label{sec:method_nmr}
+All solution $^2$H-NMR experiments where carried out on a Bruker Avance 400
+spectrometer (Universidad de Santiago de Chile, Santiago, Chile) operating at
+\SI{61.422}{MHz}. Spectra were obtained with a $\pi/2$ pulse length of
+\SI{22.4}{\micro\second}, an acquisition time of \SI{760}{ms} and a spectral
+width of \SI{43.1}{kHz}. 256 scans were acquired per spectrum. Spectra
+were acquired at \SI{37}{\celsius}, and a 10 minute pre-acquisition delay was
+employed to allow each sample reach thermal equilibrium. Spectra were processed
+using Bruker TopSpin 4.0 software.
+
+\subsection{Molecular dynamics}
+
+All simulations were performed using the GROMACS-2016\cite{Abraham2015} software
+bundle. A cutoff scheme was used for non-bonding interactions according to each
+force-field recommendation values, and long range electrostatic interactions
+were calculated employing the particle mesh Ewald method\cite{DiPierro2015}.
+Temperature control was achieved with a modified Berendsen
+thermostat\cite{Bussi2007} with a time constant of \SI{1.0}{ps}, while pressure
+was equilibrated with a semi-isotropic Berendsen barostat\cite{Berendsen1984}
+with a time constant of \SI{1.0}{ps} for both xy-plane and z-axis. Both
+temperature and pressure were adjusted to \SI{310}{K} and \SI{1}{bar}
+respectively. Periodic
+boundary conditions were applied on all three dimensions.\\
+Before each production simulation, a short equilibration run was performed for a
+duration of \SI{1}{ns} with an integration time-step of \SI{1}{fs}. Afterwards,
+each production run was calculated to a duration of \SI{40}{ns} with an
+integration time-step of \SI{2}{fs}. TIP3P water model was employed on the
+simulation with CHARMM36 force-field, while SPC/E was employed on simulations
+with Berger and Gromos53A6 force-fields. The same initial configuration was
+employed to test each force-field, and it was generated using software
+Packmol\cite{Martinez2009} arranging a bilayer with composition in the same
+proportion as the membrane mimetic in table \ref{tab:mimetic_composition} to a
+total of 9613 molecules. The phospholipid mixture was simulated as a mixture of
+39\%
+PLPC\footnote{1-palmitoyl-2-linoleoyl-\textit{sn}-glycero-3-phosphocholine},
+26\% DLPC\footnote{1,2-dilinoleoyl-\textit{sn}-glycero-3-phosphocholine}, 24\%
+DLPE\footnote{1,2-dilinoleoyl-\textit{sn}-glycero-3-phosphoethanolamine} and
+11\% DOPE\footnote{1,2-dioleoyl-\text{sn}-glycero-3-phosphoethanolamine}. These
+proportions were chosen in accordance with the composition of the phospholipid
+mixture employed, as
+reported by the vendor.\\
+PMF calculations were performed employing the Umbrella Sampling/WHAM
+method\cite{Kumar1992}. The starting configuration of each simulation window
+employed for the PMF calculation was generated from a trajectory of the target
+molecule pulling away from the center of the bilayer, making a starting point
+each \SI{1.5}{\angstrom}, up to \SI{4.5}{nm} making a total of 30 simulation
+windows. Each simulation window was calculated with the same parameters as the
+calibrated model shown ahead, up to a total of \SI{20}{ns} on each window, with
+a weak harmonic force with constant
+\SI{240}{\kilo\joule\per\mole\per\nano\meter\squared} applied on the bilayer
+in order to restrain its shape and position.\\
+
+\section{Results and discussion}
+
+\subsection{Preparation of the membrane mimetic}
+
+\begin{figure}[h]
+\centering
+  \includegraphics[width=\columnwidth]{splitting_v_phospholipid}
+  \caption{Quadrupolar splittings of 1-decanol-$\alpha$-$d_2$ and \ce{D2O} in
+    $^2$H-RMN as a function of the phospholipid content in the mimetic.}
+  \label{fig:1st_max}
+\end{figure}
+
+In order to achieve a membrane mimetic that behaves as similar as possible to
+the actual cellular membrane, it is necessary to maximize its phospholipid
+concentration. This is important considering that multiple researchers have
+concluded that there are specific interactions between the phosphate from the
+multiple phospholipids and certain amino-acids that modify the membrane
+permeability where this interaction occurs\cite{Aliaga2011,Hristova2011}.\\
+Also, the membrane mimetic must orient itself in presence of an external
+magnetic field. This is so the deuterated probes in the mimetic can produce a
+\textit{quadrupole splitting} in its $^2$H-RMN spectrum, which will be used to
+assess the mobility, location and orientation of deuterium labeled components.\\
+Both these requirements were fulfilled by employing the membrane mimetic
+developed by Bahamondes \textit{et al}\cite{Bahamonde-Padilla2013} as starting
+point, then introducing and maximizing the concentration of phospholipid onto
+this composition. The maximization was performed in two steps. In a first step,
+a batch of membrane mimetics was prepared, each one with an increasing amount of
+phospholipid from 0\% up to 30\% (see figure \ref{fig:1st_max}), $^2$H-RMN
+spectra and polarized light microscopy pictures were taken to each prepared
+membrane mimetic. From these, the composition with 22\% of phospholipid was
+chosen to continue with the next maximization step, as this was the composition
+with highest phospholipid content that retained a $^2$H-NMR spectrum
+characteristic of a nematic phase (see figure \ref{fig:22v23}).\\
+
+\begin{figure}[h]
+  \centering
+  \begin{subfigure}{0.45\columnwidth}
+    \includegraphics[width=\linewidth]{schlieren_1max}
+    \caption{4\% Phospholipid}
+    \label{fig:schlieren}
+  \end{subfigure}
+  \begin{subfigure}{0.45\columnwidth}
+    \includegraphics[width=\linewidth]{oily_17percent}
+    \caption{17\% Phospholipid}
+    \label{fig:oily}
+  \end{subfigure}
+  \caption{Polarized light microscopy pictures of membrane mimetics at different
+  phospholipid concentration. Both pictures taken at 100x zoom.}
+  \label{fig:plm}
+\end{figure}
+
+During this step of maximization, we noticed a phase transition upon reaching
+around 8\%, this phase transition was also evidenced by polarized light
+microscopy (see figure \ref{fig:plm}) where a transition from a
+\textit{Schlieren} pattern (fig. \ref{fig:schlieren}) to an \textit{oily streak}
+pattern (fig. \ref{fig:oily}) was observed. While both patterns are
+characteristic of lyotropic bilayer structured nematic phases, further
+experiments are required to assess the exact structure of each phase.
+
+\begin{figure}[h]
+\centering
+  \includegraphics[width=\columnwidth]{nematic_v_semisolid}
+  \caption{Comparison between $^2$H-NMR spectra from HDO in nematic and
+    semi-solid phases}
+  \label{fig:22v23}
+\end{figure}
+
+The second maximization step was performed by reducing the amount of SDS used to
+prepare each mimetic and subsequently adding phospholipid until a nematic phase
+was no longer obtained. The results from the membrane mimetic candidates
+prepared in this step are summarized in figure \ref{fig:phase_diag}. From these
+preparations, again, the composition with the highest phospholipid content that
+retained a nematic phase was chosen for further experimentation. The exact
+composition of the membrane mimetic is detailed in table \ref{tab:mimetic_composition}
+
+\begin{figure}[h]
+\centering
+  \includegraphics[width=\columnwidth]{phase_diag}
+  \caption{Partial phase diagram of the membrane mimetic when varying SDS and
+    phospholipid content. The selected composition is marked as a green
+    diamond.}
+  \label{fig:phase_diag}
+\end{figure}
+
+\begin{table}[h]
+\small
+  \caption{\ }
+  \label{tab:mimetic_composition}
+  \begin{tabular*}{0.96\columnwidth}{@{\extracolsep{\fill}}ll}
+    \hline
+    Compound & Content [$\tfrac{w}{w}\%$] \\
+    \hline
+    Sodium dodecyl sulphate &  18.65\% \\
+    Sodium sulphate & 1.55\%  \\
+    1-decanol & 3.92\%  \\
+    Phospholipid mixture & 26.76\%  \\
+    Water & 49.12\% \\
+    \hline
+  \end{tabular*}
+\end{table}
+
+\subsection{Calibration of a computational model}
+\label{sec:calib}
+
+In order to obtain significant information from a molecular dynamic simulation,
+it has to be calibrated to reproduce known experimental results. \par As a first
+step, three force-fields with different partial charge distributions were
+tested. These force-fields were chosen due to their ability to reproduce
+structures of SDS aggregates\cite{Tang2014}.\par
+The tested force-fields were:
+\begin{itemize}
+\item CHARMM36\cite{Vanommeslaeghe2009}
+\item Berger\cite{Berger1997} with partial charge distribution according to Merz-Kollman
+  method\cite{Besler1990}
+\item Berger with partial charge distribution according to Gromos53A6\cite{Oostenbrink2004}
+  parameters.
+\item Gromos53A6 with partial charge distribution according to Merz-Kollman
+  method. And
+\item Gromos53A6 with partial charge distribution according to its own parameters.
+\end{itemize}
+
+From each resulting simulation run, deuterium order parameters ($S_{CD}$) were
+calculated for the SDS aliphatic chain, which were used to calculate a predicted
+quadrupolar splitting employing equation (\ref{eq:splitting}) which depends on a
+coupling constant ($e^2qQ/h$, \SI{170}{kHz} for aliphatic deuterons\todo{citar
+  esto}) and the angle ($\theta$) between the normal to the bilayer and the
+applied magnetic field. Software \texttt{gmx order} included in GROMACS was
+employed to calculate the deuterium order parameter from each simulation.
+
+\begin{equation}
+  \label{eq:splitting}
+  \Delta\nu = \frac{3}{4} \frac{e^2qQ}{h}(3\cos^2\theta - 1) S_{CD}
+\end{equation}
+
+These predicted quadrupolar splittings were compared with experimental results,
+as shown in figure \ref{fig:calibration}, concluding that employing the
+Gromos53A6 force-field yields the results that are closer to experimental ones
+(see figure \ref{fig:reference}), obtaining a good correlation on the carbons
+near to the interface and diverging towards the interior of the bilayer.
+
+\begin{figure}[h]
+  \centering
+  \includegraphics[width=\columnwidth]{nmr_reference}
+  \caption{$^2$H-NMR spectrum of membrane mimetic enriched with SDS-d$_{25}$.
+    Central peak (not shown completely) belongs to \ce{HDO} present in the
+    sample, while the rest of the signals are split SDS-d$_{25}$ signals which
+    were used as reference to calibrate a computational model.}
+  \label{fig:reference}
+\end{figure}
+\begin{figure}[h]
+\centering
+  \includegraphics[width=\columnwidth]{calibration}
+  \caption{Quadrupolar splittings of SDS-d$_{25}$ from a $^2$H-NMR. Comparison
+    between experimental results and predicted by molecular dynamics employing
+    different force-fields}
+  \label{fig:calibration}
+\end{figure}
+
+Further improvement was done to the fitting of predicted results by employing
+two thermostats in the simulation, one governing the bulk solution with a
+reference temperature of \SI{310}{K} and another governing the bilayer
+components with a reference temperature of \SI{320}{K}. The reasoning behind
+this decision was based on the expectation that the increased velocity on the
+bilayer components would have a further effect on the mobility towards the
+center on the bilayer rather than in the interface, where Coulombic interactions
+are stronger and have a restraining effect on the mobility of the bilayer. After
+this adjustment, the simulation results in predicted quadrupolar splittings in
+very good agreement with the experimental ones, as shown in figure
+\ref{fig:2nd_calibration}.
+
+\begin{figure}[h]
+\centering
+  \includegraphics[width=\columnwidth]{calibration2}
+  \caption{Quadrupolar splittings of SDS-d$_{25}$ from a $^2$H-NMR. Comparison
+    between experimental results and predicted by molecular dynamics with
+    symmetric and asymmetric thermostat}
+  \label{fig:2nd_calibration}
+\end{figure}
+
+\subsection{Membrane mimetic interface characterization}
+\label{sec:characterization}
+
+With the same setting as in the calibrated model, a simulation run to a total of
+\SI{100}{ns} was performed, and in order to characterize the bulk-bilayer
+interface, charge density profiles were calculated for sodium, sulphate and
+dodecyl sulphate ions (see figure \ref{fig:charge_density}).
+
+\begin{figure}[htb]
+  \centering
+  \includegraphics[width=\columnwidth]{charge_density}
+  \caption{Charge densities of the simulated membrane mimetic.}
+  \label{fig:charge_density}
+\end{figure}
+
+These charge density profiles show the dodecyl sulphate's negative charge
+peaking \SI{1.74}{nm} away from the bilayer center, and the counter-ion sodium
+peaking \SI{1.0}{\angstrom} away at \SI{1.84}{nm} from the bilayer center. The
+high charge polarization ($\sim\pm$\SI{1.5}{q_e \per\nano\cubic\meter}) present in
+this area acts as the main barrier against polar compounds, such as
+zwitter-ionic Levodopa.\\
+
+A radial distribution function of water and sodium from sulfur in dodecyl
+sulfate yields a better picture of the interface structure (see figure
+\ref{fig:rdf}). As can be seen from the radial distribution functions, a first
+layer of tightly oriented water molecules envelopes the outer layer of the
+membrane, with most of the sodium counter-ions locating further away from this
+water layer, at \SI{\sim 5}{\angstrom} from the sulfur.
+\begin{figure}[htb]
+  \centering
+  \includegraphics[width=\columnwidth]{rdf}
+  \caption{Radial density function of water and sodium from sulfur in dodecyl sulphate.}
+  \label{fig:rdf}
+\end{figure}
+
+\subsection{Membrane mimetic validation}
+\label{sec:validation}
+
+In order to corroborate that the composition achieved (table
+\ref{tab:mimetic_composition}) behaves as a membrane mimetic, we tested the
+permeation properties of two drugs: Benzocaine, that is known to be able to passively
+cross the cellular membrane; and Levodopa, which is known to be able to cross the
+cellular membrane via active mechanisms, therefore it should not be able to
+permeate a membrane mimetic without specific receptors.
+
+\subsubsection{Benzocaine control}
+\label{sec:benzo}
+
+\begin{figure}[htb]
+  \centering
+  \includegraphics[width=\columnwidth]{benzo_profile_density}
+  \caption{Mean force potential profile for the process of Benzocaine
+    translocating through a membrane mimetic. The blue dotted area represents
+    the water particle density, while the smooth orange area represents the
+    lipid particle density in the simulation.}
+  \label{fig:benzocaine_profile}
+\end{figure}
+Employing the calibrated model stated before, a potential of mean force (PMF)
+profile was calculated for the process of Benzocaine permeating the membrane
+(figure \ref{fig:benzocaine_profile}). From this PMF profile it can be deduced
+that Benzocaine goes through three steps in order to complete its translocation:
+First, it integrates spontaneously with the outer leaflet of the bilayer,
+without mayor interactions with the Stern layer. Secondly, Benzocaine
+``flip-flops'' to the opposite leaflet of the bilayer with a small activation
+energy (\SI{11.2}{\kilo\joule}). And third and finally, it escapes the bilayer
+into the bulk at a minor energetic cost (\SI{27.1}{kJ}), showing that Benzocaine
+permeation through the membrane mimetic is indeed possible.\\
+\begin{figure}[htb]
+  \centering
+  \includegraphics[width=\columnwidth]{sds_variation}
+  \caption{Variation on quadrupolar splittings in $^2$H-NMR upon adding
+    Benzocaine or Levodopa to a membrane mimetic sample enriched with
+    SDS-d$_{25}$.}
+  \label{fig:sds_benzocaine}
+\end{figure}
+$^2$H-NMR spectrum was taken from a membrane mimetic sample with \SI{8}{mg}
+Benzocaine added per gram of mimetic enriched with SDS-d$_{25}$, and compared to
+a spectrum of the same mimetic without the anesthetic (figure
+\ref{fig:sds_benzocaine}). From this result, it can be seen that the presence of
+Benzocaine alters the quadrupolar splittings of the SDS aliphatic chain 
+from the first up to the sixth carbon, implying that Benzocaine is mostly
+residing in this area, this is concordant with the results of the PMF profile
+(figure \ref{fig:benzocaine_profile}), which shows that the most stable position
+for the Benzocaine to be in, is indeed inside the bilayer and closer to the
+interface.
+
+
+
+\subsubsection{Levodopa control}
+\label{sec:ldopa}
+
+Employing the same method as in Benzocaine, a PMF profile was calculated for the
+process of Levodopa permeating the membrane mimetic (figure
+\ref{fig:levodopa_profile}). This profile shows that the position of lowest
+energy for Levodopa to be in, is outside the bilayer, alongside the Stern layer;
+it also shows that in order to permeate the bilayer, Levodopa requires a rather
+large activation energy (\SI{102.4}{\kilo\joule\per\mol}) in order to translocate
+through the membrane, showing that a passive permeation of Levodopa through the
+membrane mimetic is actually not possible at physiological temperature.
+
+\begin{figure}[htb]
+  \centering
+  \includegraphics[width=\columnwidth]{ldopa_profile_density}    
+  \caption{Mean force potential profile for the process of Levodopa
+    translocating through a membrane mimetic. The blue dotted area represents
+    the water particle density, while the smooth orange area represents the
+    lipid particle density in the simulation.}
+  \label{fig:levodopa_profile}
+\end{figure}
+
+This previous result is supported by $^2$H-NMR spectra. When studying the
+effects of adding \SI{7}{mg} of Levodopa per gram of membrane mimetic enriched
+with SDS-d$_{25}$ the effects are minor to negligible (see figure \ref{fig:sds_benzocaine}),
+implying that the Levodopa molecules are unable to enter the bilayer to alter
+its mobility.
+
+\section{Conclusions}
+The inclusion of a natural phospholipid mixture in high concentration, make this membrane mimetic a better
+model re~producing interactions between proteins (or peptides) and the bilayer,
+considering that multiple researchers\cite{Aliaga2011,Hristova2011} have found
+that there is an specific interaction between arginine and the phosphate from
+each phospholipid
+that modify the properties of the membrane where this interaction occurs.\\
+Furthermore, the low cost of the components of this membrane mimetic, compared to the classic DMPC/CHAPSO bicelle, makes it feasible to perform permeability studies of many drugs in tandem.\\
+Also, the ability to orient itself in an external magnetic field and its sodium
+dodecyl sulphate content, which is relatively inexpensive in deuterated form,
+makes this membrane mimetic ideal for studies of dynamics employing solution $^2$H-NMR.\\
+Furthermore, we present a calibrated simulation model employing molecular
+dynamics, which as shown with the PMF profiles of Benzocaine and Levodopa, it
+allows to obtain information about the translocating process that is usually
+unfeasible to obtain via experimental means.\\
+And finally, having proven that Benzocaine, a local anesthetic that permeates
+the cellular membrane, is able to translocate through the membrane mimetic
+proposed in this article; and that Levodopa, an amino-acid that cannot permeate
+passively the cellular membrane, is unable to do so through the membrane
+mimetic, we conclude that the membrane mimetic composition we propose has
+similar permeation properties as a cellular membrane, and thus, validating the
+proposed composition as an actual
+membrane mimetic.\\
+
+
+\section*{Conflicts of interest}
+The authors declare no competing financial interests.
+
+\section*{Acknowledgements}
+The authors are pleased to acknowledge financial support from FONDECYT-Chile
+(Grant N$^\circ$1190382). D.Muñoz-Gacitúa acknowledges a fellowship from CONICYT
+(Grant N$^\circ$212832). The authors also acknowledge the assistance from the
+staff and facilities at the National Laboratory for High Performance Computing
+(NLHPC) at Universidad de Chile.
+
+%%%END OF MAIN TEXT%%%
+
+%The \balance command can be used to balance the columns on the final page if
+% desired. It should be placed anywhere within the first column of the last
+% page.
+
+\balance
+
+% If notes are included in your references you can change the title from
+% 'References' to 'Notes and references' using the following command:
+\renewcommand\refname{References}
+
+%%%REFERENCES%%%
+\bibliography{rsc} %You need to replace "rsc" on this line with the name of your .bib file
+\bibliographystyle{rsc} %the RSC's .bst file
+
+\end{document}

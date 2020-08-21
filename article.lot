@@ -1,0 +1,18 @@
+\begin{table}
+
+\small
+  \caption{\ }
+  \label{tab:mimetic_composition}
+  \begin{tabular*}{0.96\columnwidth}{@{\extracolsep{\fill}}ll}
+    \hline
+    Compound & Content [$\tfrac{w}{w}\%$] \\
+    \hline
+    Sodium dodecyl sulphate &  18.65\% \\
+    Sodium sulphate & 1.55\%  \\
+    1-decanol & 3.92\%  \\
+    Phospholipid mixture & 26.76\%  \\
+    Water & 49.12\% \\
+    \hline
+  \end{tabular*}
+
+\end{table}

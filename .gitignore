@@ -6,3 +6,9 @@ _*
 *.zip
 *.pdf
 src/
+*.fff
+*.lof
+*.lot
+*.out
+*.spl
+*.gz

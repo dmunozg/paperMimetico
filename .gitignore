@@ -1,1 +1,6 @@
 .#*
+auto/
+_*
+*.log
+*.aux
+*.zip

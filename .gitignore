@@ -12,3 +12,6 @@ src/
 *.out
 *.spl
 *.gz
+*.gz
+*.blg
+*.bbl

@@ -105,7 +105,7 @@
 	late 1960s\cite{Lawson1967}, the authors did not recognize the bicelle structure
 	at the time, instead, ten years later Amaral \textit{et al.} were the first to
 	identify the bicelle structure
-	with a mixture of sodium decyl sulphate and
+	from a mixture of sodium decyl sulphate and
 	1-decanol\cite{Amaral1979}. Later,
 	in the 1990s, it was discovered that a
 	mixture of DMPC\footnote{1,2-dimyristoyl-\textit{sn}-glycero-3-phosphocholine}
@@ -211,7 +211,7 @@
 	able to cross membrane interfaces only via active
 	processes\cite{BENTLEY2012349,PRYOR2013180}.
 	Therefore, in the absence of appropriate specific receptors, Levodopa should
-	remain attached to the outer interface and should not reach the hydrophobic
+	remain near the aqueous region, and should not reach the hydrophobic
 	bilayer core\cite{Orowski2012}.\\
 	
 	In this article, we present a new anionic nematic lyotropic liquid crystal,
@@ -221,12 +221,12 @@
 	and a mixture of natural phospholipids extracted from soybean, all dissolved in
 	water. The structure of the mesophase, which spontaneously orients in magnetic
 	fields,
-	was characterized using polarized light microscopy textures and to observe the
+	was characterized using polarized light microscopy textures, and to observe the
 	dynamics
 	of the interface as well as deeper into the hydrophobic core, $^2$H-NMR
 	quadrupole splittings from HDO, DeOH-$\alpha$-d$_2$, and SDS-d$_{25}$ were
 	measured. To test the capability of the new mimetic to reproduce
-	cell membrane behavior, Benzocaine ($\log P_{\nicefrac{O}{W}} = 2.12$\todo{ G.R. Strichartz, V. Sanchez, R. Arthur, R. Chafetz, D. Martin,Anesth.  Analg.  71  (1990)  158.}) and Levodopa ($\log P_{\nicefrac{O}{W}} = -2.39$\todo{Sangster, J., 1993. “Log Kow Databank”, Sangster Res. Lab.Montreal, Quebec, Canada.}) were dissolved in the mesophase
+	cell membrane behavior, Benzocaine ($\log P_{\nicefrac{O}{W}} = 2.12$\cite{Strichartz1990}) and Levodopa ($\log P_{\nicefrac{O}{W}} = -2.39$\cite{Sanders1993}) were dissolved in the mesophase
 	solution. According to previous evidence, Benzocaine should spontaneously be
 	incorporated inside the bilayer and become located around the first carbons of
   the aliphatic chains\cite{Martin2014a},
@@ -267,7 +267,7 @@
 	All solution $^2$H-NMR experiments were carried out on a Bruker Avance 400
 	spectrometer (Universidad de Santiago de Chile, Santiago, Chile) operating at
 	\SI{61.422}{MHz}. Spectra were obtained with a $\pi/2$ pulse length of
-	\SI{22.4}{\micro\second}, an acquisition time of \SI{760}{ms}, an spectral
+	\SI{22.4}{\micro\second}, an acquisition time of \SI{760}{ms}, a spectral
 	width of \SI{43.1}{kHz} in \SI{32}{kb} files with a digital resolution of
 	\SI{1.32}{Hz} per point.
 	256 scans were acquired per spectrum. Spectra
@@ -304,7 +304,7 @@
 	with Berger and Gromos53A6 force-fields. The same initial configuration was
 	employed to test each force-field, and it was generated using software
 	Packmol\cite{Martinez2009} arranging a bilayer with composition in the same
-	proportion as the membrane mimetic in table \ref{tab:mimetic_composition} to a
+	proportion as the membrane mimetic in table \ref{tab:mimetic_composition}, to a
 	total of 9613 molecules. The phospholipid mixture was simulated as a mixture of
 	39\%
 	PLPC\footnote{1-palmitoyl-2-linoleoyl-\textit{sn}-glycero-3-phosphocholine},
@@ -318,7 +318,7 @@
 	method\cite{Kumar1992}. The starting configuration of each simulation window
 	employed for the PMF calculation was generated from a trajectory of the target
 	molecule pulling away from the center of the bilayer, making a starting point
-	each \SI{1.5}{\angstrom}, up to \SI{4.5}{nm} making a total of 30 simulation
+	each \SI{1.5}{\angstrom}, up to \SI{45}{\angstrom} making a total of 30 simulation
 	windows. Each simulation window was calculated with the same parameters as the
 	calibrated model shown ahead, up to a total of \SI{20}{ns} on each window, with
 	a weak harmonic force with constant
@@ -349,7 +349,7 @@
   certain amino-acids that modify the membrane
 	permeability where this interaction occurs\cite{Aliaga2011,Hristova2011}.\\
   
-	Another condition that the mimetic must fulfill, is that the magnetic susceptibility of the mesophase of the mimetic must be anisotropic so it can orient itself when exposed to an external magnetic field. This is so the
+	Another condition that the mimetic must fulfill, is that the diamagnetic susceptibility of the mesophase of the mimetic must be anisotropic so it can orient itself when exposed to an external magnetic field. This is so the
   deuterated probes in the mimetic can produce a \textit{quadrupole splitting}
   in a solution $^2$H-RMN spectrum, which will be used to calibrate the MD
   simulations. This calibrated simulation can be used to assess other
@@ -484,7 +484,7 @@
 	SDS aggregates\cite{Tang2014}.\par
 	The tested force-fields were:
 	\begin{itemize}
-		\item CHARMM36\cite{Vanommeslaeghe2009}
+		\item CHARMM36\cite{Vanommeslaeghe2009} with partial charge distribution according to its own parameters.
 		\item Berger\cite{Berger1997} with partial charge distribution according to
 		Merz-Kollman
 		method\cite{Besler1990}
@@ -549,7 +549,7 @@
 	bilayer components would have a greater effect on the mobility towards the
 	center on the bilayer rather than in the interface, where Coulombic
 	interactions
-	are stronger and have a restraining effect on the mobility of the bilayer.
+	are stronger and have a restraining effect on the mobility of the interface.
 	After
 	this adjustment, the simulation results in predicted quadrupolar splittings in
 	very good agreement with the experimental ones, as shown in figure
@@ -582,11 +582,11 @@
 	director axis being parallel to the magnetic field ($\theta=0$ in eq.
 	\ref{eq:splitting}) which would produce splittings considerably smaller than
 	observed. Regarding the size of the aggregate, cryo-TEM imagery of similar
-  bicelles (made with TTA\footnote{Trimethyltetradecylammonium} instead of SDS)
+  bicelles (made with TTAC\footnote{Trimethyltetradecylammonium chloride} instead of SDS)
   results in aggregates of about
-  \SI{2}{nm}-\SI{5}{nm}\todo{RSCAdv.,2016,6,7455}, and we expect for the size of
+  \SI{2}{nm}-\SI{5}{nm}\cite{Ruiz-Fernandez2016}, and we expect for the size of
   the membrane mimetic aggregate to be in the same order of magnitude.\\
-   When comparing the NMR spectrum of this bicelle (figure \ref{fig:reference}-A) with one taken from a DHPC/DMPC bicelle with cholesterol and polyinstaturated phospholipids (figure \ref{fig:reference}-B)\todo{R.E. Minto \textit{et al.}, Chem. Phys. Lipids 132 (2004) 55–64}, one can see that DMPC-d$_{54}$ splittings (and hence order parameters) are similar to the splittings in SDS-d$_{25}$, therefore one can conclude that the orientational dynamics of this SDS-containing mimetic are similar to a mimetic made from purely phospholipid.\\ 
+   When comparing the NMR spectrum of this bicelle (figure \ref{fig:reference}-A) with one taken from a DHPC/DMPC bicelle with cholesterol and polyinstaturated phospholipids (figure \ref{fig:reference}-B)\cite{Minto2004}, one can see that DMPC-d$_{54}$ splittings (and hence order parameters) are similar to the splittings in SDS-d$_{25}$, therefore one can conclude that the orientational dynamics of this SDS-containing mimetic are similar to a mimetic made from purely phospholipid.\\ 
 	
 	For a detailed characterization of the bilayer aggregate, a \SI{100}{ns}
 	simulation run with the same settings as in the calibrated model was performed.
@@ -658,11 +658,11 @@
 	A $^2$H-NMR spectrum from a membrane mimetic sample with \SI{8}{mg}
 	Benzocaine added per gram of mimetic enriched with SDS-d$_{25}$ was obtained
 	and compared
-	with the spectrum of the same mimetic without the anesthetic (Differences
+	with the spectrum of the same mimetic without the anesthetic (differences
 	displayed in figure
 	\ref{fig:sds_benzocaine}). It can be seen that the presence
 	of
-	Benzocaine alters the quadrupolar splittings of the SDS aliphatic chain 
+	Benzocaine significantly alters the quadrupolar splittings of the SDS aliphatic chain 
 	from the first up to the sixth carbon, implying that Benzocaine is mostly
 	residing in this zone, perturbing the order of these methylenes.
 	\begin{figure}[htb]
@@ -680,14 +680,14 @@
 	that
 	in order to complete its
 	translocation, Benzocaine goes through three steps:
-	First, it integrates spontaneously with the outer leaflet of the bilayer,
-	without mayor interactions with the Stern layer, judged by the lack of an
+	First, it integrates spontaneously with the outer monolayer of the bilayer,
+	without major interactions with the Stern layer, judged by the lack of an
 	energy barrier in this area. Secondly, Benzocaine
-	``flip-flops'' to the opposite leaflet of the bilayer with a small activation
+	``flip-flops'' to the opposite monolayer with a small activation
 	energy (\SI{11.2}{\kilo\joule}). And third and finally, it escapes the bilayer
 	into the bulk at a minor energetic cost (\SI{27.1}{kJ}), showing that
 	Benzocaine
-	permeation through the membrane mimetic is indeed possible.\\
+	permeation through the membrane mimetic is indeed possible at physiological temperature.\\
 	\begin{figure}[htb]
 		\centering
 		\includegraphics[width=\columnwidth]{benzo_profile_density}
@@ -700,7 +700,7 @@
 	This mechanism is in agreement with the spectroscopic results
 	(displayed in figure \ref{fig:sds_benzocaine}), in both cases, the most
 	probable
-	position for Benzocaine to be in, is indeed inside the bilayer and close to the
+	position for Benzocaine to be in, is indeed inside the hydrophobic bilayer and close to the
 	interface.\\
 	
 	\subsubsection{Levodopa control}
@@ -716,7 +716,7 @@
 	the
 	process of Levodopa permeating the membrane mimetic (figure
 	\ref{fig:levodopa_profile}). This profile shows that the lowest
-	energy location for Levodopa to be in, is outside the bilayer, alongside the
+	energy location for Levodopa to be in, is outside the hydrophobic bilayer, alongside the
 	Stern
 	layer.
 	It also shows that in order to permeate the interface to translocate through
@@ -754,7 +754,7 @@
 	field
 	makes this membrane mimetic useful for studies of structure and dynamics
 	employing solution
-	$^2$H-NMR.\\
+	NMR.\\
 	In addition, we have developed a MD model calibrated to reproduce
 	experimentally measured mesophase order paramteres. Using this developed model,
 	PMF profiles of Benzocaine and Levodopa crossing the bilayer interface were

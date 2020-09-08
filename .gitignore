@@ -15,3 +15,5 @@ src/
 *.gz
 *.blg
 *.bbl
+*.blg
+*.bbl
